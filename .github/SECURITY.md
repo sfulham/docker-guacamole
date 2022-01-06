@@ -13,7 +13,7 @@ seriously. Thank you for improving the security of `docker-guacamole`. We apprec
 your efforts and responsible disclosure and will make every effort to acknowledge 
 your contributions.
 
-Report security bugs by emailing the maintainer at dev@oz.nu
+Report security bugs by emailing the maintainer at sfulham@shaunfulham.com.au
 
 The maintainer will acknowledge your email within 48 hours, and will send a
 more detailed response within 48 hours indicating the next steps in handling
@@ -33,7 +33,7 @@ involving the following steps:
   * Confirm the problem and determine the affected versions.
   * Audit code to find any potential similar problems.
   * Prepare fixes for all releases still under maintenance. These fixes will be
-    released as fast as possible to npm.
+    released as fast as possible to the docker registry.
 
 ## Comments on this Policy
 
