@@ -12,7 +12,7 @@ This container runs the guacamole web client, the guacd server and a postgres da
 docker run \
   -p 8080:8080 \
   -v </path/to/config>:/config \
-  oznu/guacamole
+  registry.git.shaunfulham.com.au/charli/guacamole-docker
 ```
 
 ## Raspberry Pi / ARMv6
@@ -45,7 +45,7 @@ docker run \
   -p 8080:8080 \
   -v </path/to/config>:/config \
   -e "EXTENSIONS=auth-ldap,auth-duo"
-  oznu/guacamole
+  registry.git.shaunfulham.com.au/charli/guacamole-docker
 ```
 
 Currently the available extensions are:
@@ -73,7 +73,7 @@ Mapped volumes behave differently when running Docker for Windows and you may en
 version: "2"
 services:
   guacamole:
-    image: oznu/guacamole
+    image: registry.git.shaunfulham.com.au/charli/guacamole-docker
     container_name: guacamole
     volumes:
       - postgres:/config
@@ -88,7 +88,7 @@ volumes:
 
 Copyright (C) 2017-2020 oznu
 
-Copyright (C) 2021 Shaun Fulham
+Copyright (C) 2021-2022 Shaun Fulham
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
